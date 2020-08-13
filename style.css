@@ -122,6 +122,6 @@ form
 @media screen and (max-width :598px)
 {
     .foot{
-        max-width: 100%;
+        max-width: 400px;
     }
 }
