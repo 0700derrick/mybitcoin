@@ -36,6 +36,7 @@ form{
     outline: none;
     margin-top: 10%;
     padding: 10px 5px;
+    text-align: center;
 }
 
 input[type="text"], input[type="password"]
@@ -47,12 +48,24 @@ input[type="text"], input[type="password"]
     border: none;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.295);
     border-radius: 3px;
+   
 }
 
 #submit:hover
 {
   background-color: orange;
   border:1px solid  transparent;
+}
+
+h4
+{
+    color: orange;
+    font-weight: lighter;
+}
+
+h6
+{
+    font-weight: lighter;
 }
 
 #submit
@@ -66,8 +79,14 @@ input[type="text"], input[type="password"]
         background-image: url(images/bitcoin.jpg);
         opacity: 70%;
     }
-    10%{
+    20%{
         background-image: url(images/bitcoin2.jpg);
         opacity: 70%;
+    }
+    40%{
+        background-image: url(images/bitcoin1.jpg);
+    }
+    50%{
+        background-image: url(images/bitcoin3.jpg);
     }
 }
